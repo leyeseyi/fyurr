@@ -1,0 +1,13 @@
+                                                  List of databases
+   Name    |  Owner   | Encoding |           Collate           |            Ctype            |   Access privileges   
+-----------+----------+----------+-----------------------------+-----------------------------+-----------------------
+ example   | postgres | UTF8     | English_United Kingdom.1252 | English_United Kingdom.1252 | 
+ mydb      | postgres | UTF8     | English_United Kingdom.1252 | English_United Kingdom.1252 | 
+ postgres  | postgres | UTF8     | English_United Kingdom.1252 | English_United Kingdom.1252 | 
+ template0 | postgres | UTF8     | English_United Kingdom.1252 | English_United Kingdom.1252 | =c/postgres          +
+           |          |          |                             |                             | postgres=CTc/postgres
+ template1 | postgres | UTF8     | English_United Kingdom.1252 | English_United Kingdom.1252 | =c/postgres          +
+           |          |          |                             |                             | postgres=CTc/postgres
+ todoapp   | postgres | UTF8     | English_United Kingdom.1252 | English_United Kingdom.1252 | 
+(6 rows)
+

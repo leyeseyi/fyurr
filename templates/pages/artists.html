@@ -13,4 +13,17 @@
 	</li>
 	{% endfor %}
 </ul>
+<ul class="items">
+	{% for artist in real_artist %}
+	<li>
+		<a href="/artists/{{ artist.id }}">
+			<i class="fas fa-users"></i>
+			<div class="item">
+				<h5>{{ artist.name }}</h5>
+			</div>
+		</a>
+	</li>
+	{% endfor %}
+</ul>
+
 {% endblock %}
